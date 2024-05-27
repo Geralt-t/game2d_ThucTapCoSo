@@ -9,14 +9,18 @@ public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
     private Rigidbody2D rb;
+    public float maxHealth = 200;
+    [SerializeField]
+    private float currentHealth;
 
-    private bool isDashing = false;
+    public bool isDashing = false;
     private float dashTimeleft;
     private float lastImageXpos;
     private float lashDash = -100f;
     private bool canFlip = true;
     private bool canMove = true;
     private bool canJump = true;
+    private bool PlayerIsDead;
 
     public int speed = 4;
     public float leftRight;
@@ -40,7 +44,14 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius;
     public float wallSlideSpeed;
 
-   
+    public float healthBuffAmount=70f;
+
+    private bool knockback;
+    private float knockbackStartTime;
+    [SerializeField]
+    private float knockbackDuration;
+    [SerializeField]
+    private Vector2 knockbackSpeed;
 
     [SerializeField] private int numberOfAttack;
     [SerializeField] private float attackCounterResetCoolDown;
@@ -48,6 +59,7 @@ public class PlayerController : MonoBehaviour
     private int currentAttackCounter;
     public bool checkAttackRepeat = false;
     private Timer attackCounterResetTimer;
+    public AttackDetails attackDetails;
 
     public Vector2 wallJumpPower=new Vector2(8f,16f);
     public float wallJumpDirection;
@@ -57,26 +69,24 @@ public class PlayerController : MonoBehaviour
     private bool isWallJumping;
     private bool canFlipwhenWallJump = false;
     private bool isNormalJumping;
+   
     //Normal attack
    
     [SerializeField]
     private float  normalAttackRadius, normalAttackDamage;
     [SerializeField]
     private Transform normalAttackHitBoxPos;
+    [SerializeField]
     private LayerMask whatIsDamageable;
     private bool  isAttacking, isFirstAttack;
 
-    private bool knockback;
-        private float knockbackStartTime;
-    [SerializeField] 
-    private float knockbackDuration;
-    [SerializeField]
-    private Vector2 knockbackSpeed;
+     public FloatingHealthBar healthBar;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         attackCounterResetTimer = new Timer(attackCounterResetCoolDown);
-      
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -90,6 +100,8 @@ public class PlayerController : MonoBehaviour
         CheckIfWallSliding();
         Moving();
         WallJump();
+        CheckKnockback();
+        //Dead();
         
     }
     private void FixedUpdate()
@@ -314,37 +326,92 @@ public class PlayerController : MonoBehaviour
     private void CheckAttackHitBox()
     {
         Collider2D[] detectedObjects = Physics2D.OverlapCircleAll(normalAttackHitBoxPos.position, normalAttackRadius, whatIsDamageable);
+        attackDetails.damageAmount=normalAttackDamage;
+        attackDetails.position = transform.position;
+        
         foreach (Collider2D collider in detectedObjects)
         {
-            collider.transform.parent.SendMessage("Damage", normalAttackDamage);
+            collider.transform.parent.SendMessage("Damage", attackDetails);
         }
     }
-    private void Knockback(int direction)
-    {
-        knockback = true;
-        knockbackStartTime = Time.time;
-        rb.velocity = new Vector2(knockbackSpeed.x * direction, knockbackSpeed.y);
-
-    }
-    private void CheckKnockback()
-    {
-        if(Time.time>=knockbackStartTime+knockbackDuration&&knockback)
-        {
-            knockback = false;
-            rb.velocity=new Vector2(0.0f,rb.velocity.y);
-
-        }
-    }
+  
+   
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag ("teleport"))
         {
             rb.position = new Vector2(192, -69);
             Debug.Log("TOUCHING");
+            currentHealth = maxHealth;
+            healthBar.UpdateHealthBar(currentHealth, maxHealth);
+        }
+        else if (other.gameObject.CompareTag("health potion"))
+        {
+            if (currentHealth < maxHealth - healthBuffAmount)
+            {
+                currentHealth = currentHealth + healthBuffAmount;
+            }
+            else
+            {
+                currentHealth = maxHealth;
+            }
+                Destroy(other.gameObject);
+            healthBar.UpdateHealthBar(currentHealth, maxHealth);
+            Debug.Log("TOUCHING");
+            
+        }
+        else if(other.gameObject.CompareTag("strength potion"))
+        {
+            normalAttackDamage += 5;
+            Destroy(other.gameObject);
+            Debug.Log("TOUCHING");
         }
     }
-    
+    public void Damage(AttackDetails attackDetails)
+    {
+
+        currentHealth -= attackDetails.damageAmount;
+        healthBar.UpdateHealthBar(currentHealth, maxHealth);
+        int direction;
+        if (attackDetails.position.x < transform.position.x)
+        {
+            direction = 1;
+        }
+        else
+        {
+            direction = -1;
+        }
+        
+        Knockback(direction);
+    }
+    private void Dead()
+    {
+        if(currentHealth < 0)
+        {
+            anim.SetBool("Dead",true);
+            PlayerIsDead = true;
+        }
+    }
      
+    public void Knockback(int direction)
+    {
+        knockback = true;
+        knockbackStartTime = Time.time;
+        rb.velocity = new Vector2(knockbackSpeed.x * direction, knockbackSpeed.y);
+    }
+
+    private void CheckKnockback()
+    {
+        if (Time.time >= knockbackStartTime + knockbackDuration && knockback)
+        {
+            knockback = false;
+            rb.velocity = new Vector2(0.0f, rb.velocity.y);
+        }
+    }
+    public float GetDashCoolDown()
+    {
+        return dashCooldown;
+    }
 }
 
 

@@ -6,5 +6,14 @@ public class D_Entity : ScriptableObject
 {
     public float wallCheckDistance=0.2f;
     public float ledgeCheckDistance=0.4f;
+    public float maxHealth = 30f;
+
+    public float damageHopSpeed=3f;
+    public float maxAgroDistance=4f;
+    public float minAgroDistance = 3f;
+
+    public float closeRangeActionRange = 1f;
+
+    public LayerMask WhatIsPlayer;
     public LayerMask whatIsGround;
 }

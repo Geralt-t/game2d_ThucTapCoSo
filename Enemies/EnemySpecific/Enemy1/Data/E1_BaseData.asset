@@ -12,8 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1629aa5436bd1c141bab37c0547793f2, type: 3}
   m_Name: E1_BaseData
   m_EditorClassIdentifier: 
-  wallCheckDistance: 0.2
-  ledgeCheckDistance: 0.4
+  wallCheckDistance: 0.6
+  ledgeCheckDistance: 1
+  maxHealth: 30
+  damageHopSpeed: 10
+  maxAgroDistance: 40
+  minAgroDistance: 30
+  closeRangeActionRange: 12
+  WhatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
