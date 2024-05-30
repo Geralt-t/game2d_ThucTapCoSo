@@ -1,0 +1,1367 @@
+fileFormatVersion: 2
+guid: c9f98f4d39a83774fbfdbd9c53c5e706
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1613
+        width: 426
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee602bffa8b4e24eb44840e931a1628
+      internalID: 1993037959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1620
+        width: 298
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a081d0e9f927ab8478c96ec8766e9450
+      internalID: -2139752959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_2
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1647
+        width: 392
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ae3137a1954c94a8c5b28fd8e2d14f
+      internalID: -854269445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_3
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 2035
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb1919910f728f4fb2fdba8d1a8b0e7
+      internalID: 1601676018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_4
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1653
+        width: 388
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0094665c45d980f45858aa8f721c8de1
+      internalID: -2006438038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_5
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1809
+        width: 328
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f43c99e46ca0648a3707b1a3fae25a
+      internalID: 1685120740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_6
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2030
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e7fa6b59d8c634da04f388324cf835
+      internalID: -33976595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_7
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1989
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbc4afc250dd5c45b486a0f6da15225
+      internalID: -455744861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_8
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 2023
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa933d31b17cfac459b2de01202d3421
+      internalID: 451742130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_9
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 2024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfd6cdd77c61ba44b412cb63f2af65a
+      internalID: -110656201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_10
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 2024
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989898496535f01488e1f247e3427e21
+      internalID: 1741749053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_11
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 2016
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68bbb10d4d74394996ba16e314d59ae
+      internalID: -1765439993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_12
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2004
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a3285ab1381f14498c41e96746605c
+      internalID: -2092131445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_13
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1875
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf82909b9f256c6478daf9521525bbb8
+      internalID: 2101825828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_14
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1863
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4e16edb9937ff4982c5946f410b1be
+      internalID: -1345547140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_15
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1835
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2099796755b7c84797e24e35b93eed8
+      internalID: 841274029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_16
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1839
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124cfad597eb9594bb07656a96c97700
+      internalID: -1464481254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_17
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1793
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efbf943653476548a4d7ce9fe9860c5
+      internalID: 48435716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_18
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1556
+        width: 321
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38b50049599dc0478aa6b8d08b9b346
+      internalID: -1766373477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_19
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1723
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37aede084e9db449a40dc2e77b3347a
+      internalID: 856069838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_20
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1637
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685a7098965939e4191eaaf352b8a76a
+      internalID: 604550471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_21
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1302
+        width: 239
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfb2ecf195824946a3609446a1a8033
+      internalID: 1338977267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1180
+        width: 297
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab75ae4b27bdb5f4bbd2aa948bd14f97
+      internalID: 633546567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1183
+        width: 297
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bec1a11c4bf4624ea34bd601e2dd8f3
+      internalID: 879884560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_24
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1196
+        width: 300
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f31cc5875f330f46a9b1d373e3b8302
+      internalID: -1271034598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_25
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1236
+        width: 257
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a76b0c22ea45640935324449430e8f
+      internalID: -2048444003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_26
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1313
+        width: 322
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30ef06de183a1c43a14490f0b000fec
+      internalID: 595991122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_27
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1345
+        width: 293
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ea4b638456ee540a4e7beaaee65b65
+      internalID: 217562397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_28
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1303
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208fdd1346258e5438c9f86b4855ddde
+      internalID: -139877723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_29
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1054
+        width: 288
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e109b24388ca0b4689fd5cfa6a829a3
+      internalID: 1947007506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_30
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 875
+        width: 338
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06165be65468404ab76ec6d6cf0c116
+      internalID: -1098485548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_31
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 977
+        width: 238
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f652b89eb7d19ce479cae8066eb789a9
+      internalID: 658419013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_32
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1200
+        width: 19
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897ea940bd261cd429616bd618fc8360
+      internalID: -1871368176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 746
+        width: 297
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d19ea4c8442624aa9a7200f8d3fe68
+      internalID: -653518904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_34
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 753
+        width: 298
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa8507b91f50f34d92853a9fdd288e3
+      internalID: 874778877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_35
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 795
+        width: 392
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bffa3fa53fad914da26257bb08688b9
+      internalID: -194491297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_36
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1109
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc637357c0ea7d459b6d7471c070cfa
+      internalID: -1126940723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_37
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1005
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384ad081693ddee4c8a3be0bfb1035cf
+      internalID: -1526220798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_38
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 811
+        width: 238
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914b358722ffdc24896b87fbbf9f2ba9
+      internalID: 1684885564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_39
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 977
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070c7b3dfa6a47c40b4d5bb4c634c6b8
+      internalID: 702671019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_40
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 981
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6966209568394194aa8483aefa2c3d47
+      internalID: -839320891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_41
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 935
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8a01f77705a81478c0c2fd70595b32
+      internalID: -1511696841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_42
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 865
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1117e2c2aeeea498cf1aa743aec64d
+      internalID: -1361077773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_43
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 534
+        width: 238
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94bf8632684e45489034e701d597f7d
+      internalID: 1920403888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_44
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 550
+        width: 238
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04017e5d73323d46ab892ce56ec53e2
+      internalID: 1720341477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_45
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 417
+        width: 365
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315c346d331b03f488421a124df6b630
+      internalID: -860249832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_46
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 773
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcb0418273952d4ebde319031c3a753
+      internalID: 1977221188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 297
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dd494f97588f540869ed6edef19bd6
+      internalID: 786939619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_48
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 329
+        width: 415
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81378781c7cc84c498e81bb6456bdb41
+      internalID: 471680269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_49
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 208
+        width: 238
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e931f85ea59bac42afb1063d2ccb5f8
+      internalID: 1332346086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_50
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 432
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd9290732a42a2498bcc5a8460af482
+      internalID: 995325468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_51
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 10
+        width: 206
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17119997f38346d4e9540b79d96ca8bf
+      internalID: -1282834391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_52
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 11
+        width: 422
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150efa355ecb54c4fa90b7f459aaeecb
+      internalID: -1753228450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_53
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2
+        width: 240
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13050d021c63f6047b640eff3625f917
+      internalID: 962433948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_54
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 46
+        width: 364
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74d92105ca6c1c4faa130ab7599878d
+      internalID: -1313596406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ek-60WnUUAALQq0_55
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 12
+        width: 193
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389231152c5bc924fac74255be23ce5d
+      internalID: 1519466205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ek-60WnUUAALQq0_50: 995325468
+      Ek-60WnUUAALQq0_34: 874778877
+      Ek-60WnUUAALQq0_52: -1753228450
+      Ek-60WnUUAALQq0_26: 595991122
+      Ek-60WnUUAALQq0_30: -1098485548
+      Ek-60WnUUAALQq0_46: 1977221188
+      Ek-60WnUUAALQq0_10: 1741749053
+      Ek-60WnUUAALQq0_18: -1766373477
+      Ek-60WnUUAALQq0_53: 962433948
+      Ek-60WnUUAALQq0_27: 217562397
+      Ek-60WnUUAALQq0_20: 604550471
+      Ek-60WnUUAALQq0_16: -1464481254
+      Ek-60WnUUAALQq0_55: 1519466205
+      Ek-60WnUUAALQq0_44: 1720341477
+      Ek-60WnUUAALQq0_5: 1685120740
+      Ek-60WnUUAALQq0_13: 2101825828
+      Ek-60WnUUAALQq0_45: -860249832
+      Ek-60WnUUAALQq0_37: -1526220798
+      Ek-60WnUUAALQq0_28: -139877723
+      Ek-60WnUUAALQq0_6: -33976595
+      Ek-60WnUUAALQq0_8: 451742130
+      Ek-60WnUUAALQq0_49: 1332346086
+      Ek-60WnUUAALQq0_54: -1313596406
+      Ek-60WnUUAALQq0_12: -2092131445
+      Ek-60WnUUAALQq0_33: -653518904
+      Ek-60WnUUAALQq0_7: -455744861
+      Ek-60WnUUAALQq0_23: 879884560
+      Ek-60WnUUAALQq0_22: 633546567
+      Ek-60WnUUAALQq0_2: -854269445
+      Ek-60WnUUAALQq0_35: -194491297
+      Ek-60WnUUAALQq0_38: 1684885564
+      Ek-60WnUUAALQq0_40: -839320891
+      Ek-60WnUUAALQq0_19: 856069838
+      Ek-60WnUUAALQq0_25: -2048444003
+      Ek-60WnUUAALQq0_43: 1920403888
+      Ek-60WnUUAALQq0_4: -2006438038
+      Ek-60WnUUAALQq0_42: -1361077773
+      Ek-60WnUUAALQq0_32: -1871368176
+      Ek-60WnUUAALQq0_9: -110656201
+      Ek-60WnUUAALQq0_17: 48435716
+      Ek-60WnUUAALQq0_31: 658419013
+      Ek-60WnUUAALQq0_29: 1947007506
+      Ek-60WnUUAALQq0_24: -1271034598
+      Ek-60WnUUAALQq0_41: -1511696841
+      Ek-60WnUUAALQq0_14: -1345547140
+      Ek-60WnUUAALQq0_0: 1993037959
+      Ek-60WnUUAALQq0_3: 1601676018
+      Ek-60WnUUAALQq0_48: 471680269
+      Ek-60WnUUAALQq0_11: -1765439993
+      Ek-60WnUUAALQq0_47: 786939619
+      Ek-60WnUUAALQq0_1: -2139752959
+      Ek-60WnUUAALQq0_39: 702671019
+      Ek-60WnUUAALQq0_15: 841274029
+      Ek-60WnUUAALQq0_51: -1282834391
+      Ek-60WnUUAALQq0_36: -1126940723
+      Ek-60WnUUAALQq0_21: 1338977267
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

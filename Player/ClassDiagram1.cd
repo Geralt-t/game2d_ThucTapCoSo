@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AfterImage" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAIAAAAAAAAAAAAAgAAAAACDAAgQAAAAKAA=</HashCode>
+      <FileName>Assets\Scripts\Player\AfterImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AfterImagePool" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEQAAAAAAAAAAAAAAEBAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\AfterImagePool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraFollow" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\CameraFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController" Collapsed="true">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sIzOSGCoEiQgIAROwBIoIYkoIlamQSC5sR1UGAAwIAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AttackState" Collapsed="true">
+    <Position X="9.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABQABAABAAAAAAAAAAEAAAAAAAEAAAIIAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\AttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChargeState" Collapsed="true">
+    <Position X="11.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQABAAAAAABAAAAAAEAAAAAAAUAAgIIAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\ChargeState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeadState" Collapsed="true">
+    <Position X="5.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAIAAAAAAAAAAEAAAAAAAEAACAIAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\DeadState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleState" Collapsed="true">
+    <Position X="13.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAABAAAEAAAQAEAEAAAIIAAAIAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\IdleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LookForPlayer" Collapsed="true">
+    <Position X="7.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAwABACAAAAACAAAAAEAAAAAAAECAAIIAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\LookForPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeleeAttackState" Collapsed="true">
+    <Position X="8.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQABAABAAAAAAAAAAEAAAAAAAEAAAAIAAAIAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\MeleeAttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveState" Collapsed="true">
+    <Position X="17.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQABAAAAAABAAAAAAEAAAAAAAEAAAIIAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\MoveState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerDetectedState" Collapsed="true">
+    <Position X="15.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQABAAAAAAAQAAAAAEAAAAAAAEAAgIIAAAIAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\PlayerDetectedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D_ChargeState">
+    <Position X="0.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\Data\D_ChargeState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.ScriptableObject" Collapsed="true">
+    <Position X="7.75" Y="25.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="D_DeadState">
+    <Position X="2.25" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\Data\D_DeadState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D_Entity">
+    <Position X="13.25" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIEAAAgAEAAABAAAAIAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\Data\D_Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D_IdleState">
+    <Position X="4" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\Data\D_IdleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D_LookForPlayer">
+    <Position X="11.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\Data\D_LookForPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D_MeleeAttackState">
+    <Position X="7.75" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAEAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\Data\D_MeleeAttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D_MoveState">
+    <Position X="5.75" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\Data\D_MoveState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D_PlayerDetected">
+    <Position X="9.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\Data\D_PlayerDetected.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State" Collapsed="true">
+    <Position X="11.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQABAAAACAAAAAAAAkAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\State Machine\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="E1_ChargeState" Collapsed="true">
+    <Position X="11" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAEAAAAAAAEAAAAIAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Enemy1\E1_ChargeState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="E1_IdleState" Collapsed="true">
+    <Position X="13.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Enemy1\E1_IdleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="E1_PlayerDetected" Collapsed="true">
+    <Position X="15.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Enemy1\E1_PlayerDetected.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="E1_MoveState" Collapsed="true">
+    <Position X="17.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Enemy1\E1_MoveState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="E1_LookForPlayerState" Collapsed="true">
+    <Position X="6.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAEAAAAAAAEAAAAIAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Enemy1\E1_LookForPlayerState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="E1_DeadState" Collapsed="true">
+    <Position X="4" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAEAAAAAAAEAAAAIAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Enemy1\E1_DeadState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverSceen" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECQAAAAAACAAAAAAAAAAAIAAAAAAAAABAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Scripts\Other\GameOverSceen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAACAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseMenu" Collapsed="true">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAhAACAAAAAAAAAAEIAAAAAAAAAAAAAAEAAAIAA=</HashCode>
+      <FileName>Assets\Scripts\Other\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAREAACEhiCQAEAEFAAAAIEAAhEEAAIAAQAIAAAwAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\State Machine\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy1" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAFAACQICAAAAAAQAgAAhAAAAAAAIgAAoAAAAgEAAQ=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Enemy1\Enemy1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abillities" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgCAABAAAAAAAAAAAEAAAAAAAABBAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\Abillities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloatingHealthBar" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Other\FloatingHealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimationToStateMachine" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\AnimationToStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boss" Collapsed="true">
+    <Position X="10.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAFAACQICAAAgAAQAAAAhAAAIAAQAgAAoAAAAgEAAQ=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Boss\Boss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RangeAttackState" Collapsed="true">
+    <Position X="10.75" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAABAAAAAAAAAAEAAAAAAAEAAAAIAAAIAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\RangeAttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DodgeState" Collapsed="true">
+    <Position X="14.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAEAAAAAAAEAAgIIAAAIAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\DodgeState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B_ChargeState" Collapsed="true">
+    <Position X="12.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAEAEAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Boss\B_ChargeState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B_DeadState" Collapsed="true">
+    <Position X="5.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAEAEAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Boss\B_DeadState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B_LookForPlayerState" Collapsed="true">
+    <Position X="8.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAEAEAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Boss\B_LookForPlayerState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B_IdleState" Collapsed="true">
+    <Position X="14.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAEAEAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Boss\B_IdleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="B_PlayerDetectedState" Collapsed="true">
+    <Position X="17" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAAEAEAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\EnemySpecific\Boss\B_PlayerDetectedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D_RangeAttackData">
+    <Position X="15" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Enemies\States\Data\D_RangeAttackData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

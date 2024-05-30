@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4e27f343e9ed846bab438aa330434d, type: 3}
+  m_Name: B_RangeAttackData
+  m_EditorClassIdentifier: 
+  spell: {fileID: 2218968295389902374, guid: 82d1d87208629454eaa5c1567eaa73f7, type: 3}
+  spellDamage: 30
+  damageRadius: 3
+  timeActivated: 1.5
