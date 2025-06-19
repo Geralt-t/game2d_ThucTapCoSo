@@ -1,0 +1,97 @@
+\doxysection{Player\+Controller Class Reference}
+\hypertarget{class_player_controller}{}\label{class_player_controller}\index{PlayerController@{PlayerController}}
+Inheritance diagram for Player\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_player_controller}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_player_controller_acaaaf0697f843b7ad26f43acfee3cf31}\label{class_player_controller_acaaaf0697f843b7ad26f43acfee3cf31} 
+void {\bfseries is\+Attack\+Finish} ()
+\item 
+\Hypertarget{class_player_controller_a80693e7a556c1cba764f05a61cfd386b}\label{class_player_controller_a80693e7a556c1cba764f05a61cfd386b} 
+void {\bfseries Enable\+Flip} ()
+\item 
+\Hypertarget{class_player_controller_a1877b1e00af330b4870c8515d435074b}\label{class_player_controller_a1877b1e00af330b4870c8515d435074b} 
+void {\bfseries Disable\+FLip} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_player_controller_a5e12e3d639608351d9638582f83aae69}\label{class_player_controller_a5e12e3d639608351d9638582f83aae69} 
+int {\bfseries speed} = 4
+\item 
+\Hypertarget{class_player_controller_ad24d1ac555458a9701ed9d02ef4fa5a0}\label{class_player_controller_ad24d1ac555458a9701ed9d02ef4fa5a0} 
+float {\bfseries left\+Right}
+\item 
+\Hypertarget{class_player_controller_a4a05dfc70b40a446ec45461855b7e3d5}\label{class_player_controller_a4a05dfc70b40a446ec45461855b7e3d5} 
+bool {\bfseries is\+Facing\+Right} = true
+\item 
+\Hypertarget{class_player_controller_a4c0e2755381a6eb61b736d4611b05336}\label{class_player_controller_a4c0e2755381a6eb61b736d4611b05336} 
+int {\bfseries movement\+Direction} = 1
+\item 
+\Hypertarget{class_player_controller_ac646d94772588e3393eb5cb9ac02a5c4}\label{class_player_controller_ac646d94772588e3393eb5cb9ac02a5c4} 
+Animator {\bfseries anim}
+\item 
+\Hypertarget{class_player_controller_a0e2f487648ec61971ae20c6fedc5a206}\label{class_player_controller_a0e2f487648ec61971ae20c6fedc5a206} 
+float {\bfseries jump}
+\item 
+\Hypertarget{class_player_controller_a6b0ba9333666df73c8f88980a889adfc}\label{class_player_controller_a6b0ba9333666df73c8f88980a889adfc} 
+bool {\bfseries is\+Grounded} = false
+\item 
+\Hypertarget{class_player_controller_a2e02b617c6cff333e547079ff235104d}\label{class_player_controller_a2e02b617c6cff333e547079ff235104d} 
+float {\bfseries dash\+Speed} = 24f
+\item 
+\Hypertarget{class_player_controller_a4325951e90eb678cb43ffef5325d8285}\label{class_player_controller_a4325951e90eb678cb43ffef5325d8285} 
+float {\bfseries dash\+Cooldown} = 3f
+\item 
+\Hypertarget{class_player_controller_aaca78f29fba9feea59d6883573ff3eb1}\label{class_player_controller_aaca78f29fba9feea59d6883573ff3eb1} 
+float {\bfseries dash\+Time} = 1.\+2f
+\item 
+\Hypertarget{class_player_controller_a3ae18c5c30363e1267284651aa3c6271}\label{class_player_controller_a3ae18c5c30363e1267284651aa3c6271} 
+float {\bfseries distance\+Between\+Images} = 0.\+1f
+\item 
+\Hypertarget{class_player_controller_ad20955e96e3b674948116391d958a820}\label{class_player_controller_ad20955e96e3b674948116391d958a820} 
+Transform {\bfseries wall\+Check}
+\item 
+\Hypertarget{class_player_controller_ad870c44af9544c057897c33e9ac1f708}\label{class_player_controller_ad870c44af9544c057897c33e9ac1f708} 
+Transform {\bfseries ground\+Check}
+\item 
+\Hypertarget{class_player_controller_a756b23580eb450873808fdb183f570be}\label{class_player_controller_a756b23580eb450873808fdb183f570be} 
+float {\bfseries wall\+Check\+Distance}
+\item 
+\Hypertarget{class_player_controller_a5280def315a8ef1d16620890a1523273}\label{class_player_controller_a5280def315a8ef1d16620890a1523273} 
+Layer\+Mask {\bfseries what\+Is\+Ground}
+\item 
+\Hypertarget{class_player_controller_a71858ced951cef89187a536163874730}\label{class_player_controller_a71858ced951cef89187a536163874730} 
+float {\bfseries ground\+Check\+Radius}
+\item 
+\Hypertarget{class_player_controller_ad45e6f52ad5abdc588ad61e76586cd92}\label{class_player_controller_ad45e6f52ad5abdc588ad61e76586cd92} 
+float {\bfseries wall\+Slide\+Speed}
+\item 
+\Hypertarget{class_player_controller_a8773ad80abe107f04dd250389964de73}\label{class_player_controller_a8773ad80abe107f04dd250389964de73} 
+bool {\bfseries check\+Attack\+Repeat} = false
+\item 
+\Hypertarget{class_player_controller_a4cf2d0ea75538aad4746e314bdf40e04}\label{class_player_controller_a4cf2d0ea75538aad4746e314bdf40e04} 
+Vector2 {\bfseries wall\+Jump\+Power} =new Vector2(8f,16f)
+\item 
+\Hypertarget{class_player_controller_a18bea0d4f358de9fef33a9f1d3b4357d}\label{class_player_controller_a18bea0d4f358de9fef33a9f1d3b4357d} 
+float {\bfseries wall\+Jump\+Direction}
+\item 
+\Hypertarget{class_player_controller_a1be5dee8638a8c62064144de20a84f3f}\label{class_player_controller_a1be5dee8638a8c62064144de20a84f3f} 
+float {\bfseries wall\+Jump\+Time} =0.\+2f
+\item 
+\Hypertarget{class_player_controller_aac1cad37acd014f9f5a3fe859272d54b}\label{class_player_controller_aac1cad37acd014f9f5a3fe859272d54b} 
+float {\bfseries wall\+Jump\+Counter}
+\item 
+\Hypertarget{class_player_controller_a6f8f02714d54aea75cdf5e113f217deb}\label{class_player_controller_a6f8f02714d54aea75cdf5e113f217deb} 
+float {\bfseries wall\+Jump\+Duration} = 1f
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Player\+Controller.\+cs\end{DoxyCompactItemize}

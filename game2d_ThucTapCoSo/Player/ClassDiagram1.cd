@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BasicEnemyController">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="BasicEnemyController.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Enemies\BasicEnemyController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAyUAACoESAMBQBAJAIBBAEIBoAEABAIAAQIRIBgAQQ=</HashCode>
+      <FileName>Assets\Scripts\Enemies\BasicEnemyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AfterImage">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAIAAAAAAAAAAAAAgAAAAACDAAgQAAAAKAA=</HashCode>
+      <FileName>Assets\Scripts\Player\AfterImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AfterImagePool">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEQAAAAAAAAAAAAAAEBAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Player\AfterImagePool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraFollow">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player\CameraFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerCombatController">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQUQAAAACAAAAYIEAAAIJAAAiAAAAEAAQAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerCombatController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sIwOSGAgEiAgIAROgBIoIYkoIhYiQSA5sRVUEAAgIAA=</HashCode>
+      <FileName>Assets\Scripts\Player\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
